@@ -1,0 +1,87 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    margin: 0px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-justify{
+    text-align: justify;
+}
+.header{
+    width: 100%;
+    float: left;
+    background-color: grey;
+}
+
+.logo{
+    margin: 10px;
+}
+
+.logo img{
+    float: left;
+    padding: 10px;
+}
+
+.menu{
+    float: right;
+    margin: 25px 25px 0 0;
+
+}
+
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border: 1px dashed;
+}
+
+.menu ul li a:hover{
+    color: indianred;
+}
+
+.slider{
+    float: left;
+    width: 100%;
+}
+
+.slider img{
+    width: 100%;
+    max-height: 300px;
+}
+
+.posts, .single-post{
+    width: 100%;
+    float: left;
+}
+.post-content{
+    width: 70%;
+}
+
+.post-image{
+    width: 30%;
+}
+
+.single-post:nth-child(odd) .post-content, .single-post:nth-child(even) .post-image, .single-post:nth-child(even) .post-image img{
+    float: right;
+}
+.single-post:nth-child(even) .post-content, .single-post:nth-child(odd) .post-image, .single-post:nth-child(odd) .post-image img{
+    float: left;
+}
+
+.footer{
+    width: 100%;
+    float: left;
+    background-color: grey;
+    margin-top: 10px;
+    color: white;
+}
